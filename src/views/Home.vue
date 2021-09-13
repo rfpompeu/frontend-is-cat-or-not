@@ -1,15 +1,15 @@
 <template>
-  <hello-world />
+  <upload-image />
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+import UploadImage from "../components/UploadImage";
 
-  export default {
-    name: 'Home',
+export default {
+  name: "Home",
 
-    components: {
-      HelloWorld,
-    },
-  }
+  components: {
+    UploadImage,
+  },
+};
 </script>
